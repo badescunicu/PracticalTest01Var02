@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PracticalTest01Var02</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_button">Add</string>
+    <string name="compute_button">Compute</string>
+    <string name="next_term_edittext">Next Term</string>
+    <string name="all_terms_edittext">All Terms</string>
+</resources>
