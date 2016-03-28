@@ -32,7 +32,7 @@ public class PracticalTest02Var02MainActivity extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
             String message = intent.getStringExtra("broadcast_message");
-            Toast.makeText(context, message, Toast.LENGTH_LONG);
+            Toast.makeText(context, message, Toast.LENGTH_LONG).show();
             Log.d("RECEIVER", message);
         }
     }
