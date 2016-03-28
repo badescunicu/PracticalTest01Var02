@@ -11,7 +11,7 @@ public class PracticalTest02Var02Service extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         int sum = intent.getIntExtra("key_sum", -1);
         processingThread = new ProcessingThread(getApplicationContext(), sum);
-        processingThread.run();
+        processingThread.start();
         return Service.START_REDELIVER_INTENT;
     }
 
